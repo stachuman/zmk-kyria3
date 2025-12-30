@@ -108,9 +108,9 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp EQUAL  &kp Q                &kp W            &kp F            &kp P              &kp G                                                          &kp J      &kp L               &kp U             &kp Y            &kp SEMI              &kp BSLH
-&kp TAB    &hml LEFT_CONTROL A  &hml LEFT_ALT R  &hml LEFT_GUI S  &hml LEFT_SHIFT T  &kp D                                                          &kp H      &hmr RIGHT_SHIFT N  &hmr RIGHT_GUI E  &hmr LEFT_ALT I  &hmr RIGHT_CONTROL O  &kp SQT
-&kp ESC    &kp Z                &kp X            &kp C            &kp V              &kp B    &sl 4          &l_paren_brk  &r_paren_brk  &kp MINUS  &kp K      &kp M               &kp COMMA         &kp DOT          &kp FSLH              &caps_word
+&kp ESC             &kp Q                &kp W            &kp F            &kp P              &kp G                                                          &kp J      &kp L               &kp U             &kp Y            &kp SEMI              &kp BSLH
+&kp LEFT_CONTROL    &hml LEFT_CONTROL A  &hml LEFT_ALT R  &hml LEFT_GUI S  &hml LEFT_SHIFT T  &kp D                                                          &kp H      &hmr RIGHT_SHIFT N  &hmr RIGHT_GUI E  &hmr LEFT_ALT I  &hmr RIGHT_CONTROL O  &kp SQT
+&kp LEFT_SHIFT      &kp Z                &kp X            &kp C            &kp V              &kp B    &sl 4          &l_paren_brk  &r_paren_brk  &kp MINUS  &kp K      &kp M               &kp COMMA         &kp DOT          &kp FSLH              &caps_word
                                 &sk LEFT_SHIFT                    &kp GRAVE          &kp DEL  &kp BACKSPACE  &sl 1         &sl 2         &kp SPACE  &kp ENTER  &rgb_ug RGB_TOG                       &sk RIGHT_SHIFT
             >;
 
